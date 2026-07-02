@@ -15,7 +15,7 @@ os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 users = {}
 
 # Load model
-model = load_model('models/animal_classifier_mobilenetv2.keras')
+model = load_model('animal_classifier_mobilenetv2.keras')
 class_names = ['cats', 'dogs', 'snakes']
 
 # ---------------- Routes ----------------
